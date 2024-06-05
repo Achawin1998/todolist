@@ -65,9 +65,9 @@ export default function Home() {
                                   <div className='flex flex-wrap gap-10 justify-center items-center'>
                                   {items.map(item => (
                                               item.isEdit ? (
-                                              <Edit item={item} updateTextEdit={updateTextEdit} toggleChangeToEdit={toggleChangeToEdit} /> 
+                                              <Edit key={item.id} item={item} updateTextEdit={updateTextEdit} toggleChangeToEdit={toggleChangeToEdit} /> 
                                               ):(
-                                              <Items item={item} toggleChangeToEdit={toggleChangeToEdit} toggleComplete={toggleComplete} onDelete={handleDelete}/>
+                                              <Items key={item.id} item={item} toggleChangeToEdit={toggleChangeToEdit} toggleComplete={toggleComplete} onDelete={handleDelete}/>
                                               )
                                   ))}
                                   </div>
