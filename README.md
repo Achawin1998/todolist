@@ -3,6 +3,6 @@
 
 🍒1. สามารถ create/edit/remove ได้🍒
 
-🍒2. save ข้อมูลลง localStorage🍒
+🍒2. บันทึกข้อมูลลงใน localStorage🍒
 
 🍒[Go to Website](https://todolist-app-lemon.vercel.app/)🍒
